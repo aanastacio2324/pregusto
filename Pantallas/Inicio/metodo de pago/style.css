@@ -1,0 +1,120 @@
+body{
+    margin: 0 auto;
+    position: relative;
+}
+
+.fondo{
+    width: 393px;
+    height: 852px;
+    overflow: hidden;
+    background: linear-gradient(130deg, #FFEED5, #FF7729);
+}
+.logo{
+    height: 393px;
+    width: 393px;
+    background-image: url("../../../iconos/logo/logopregutoredondo@android.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 75%;
+    margin-top: -95px;
+    margin-bottom: -20px;
+}
+
+.pago {
+    top: 101px;
+    color: rgb(255, 119, 0);
+    border-radius: 3rem 3rem 0 0;
+    margin: 0 auto;
+    width: 358px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    bottom: 0px;
+    box-shadow: 0px 3px 30px -9px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+.texto{
+    font-family: Montserrat;
+    font-weight: bold;
+    height: 35px;
+    width: 393px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 10px;
+    text-shadow: 1px 5px 6px rgba(255,67,34,0.76);
+    margin-bottom: 50px;
+}
+
+h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+    color: #FD7400;
+    margin-top: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+    color: #FD7400;
+    margin-top: -70px;
+    text-align: center;
+    overflow: hidden;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+    color: #FD7400;
+    margin-top: -15px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+#margencomensalboton input{
+    margin-top: 200px;
+    
+    text-shadow:0px 3px 8px rgb(211, 211, 211) ;
+}
+
+
+#margenrestauranteboton input{
+    top: 25px;
+    position: relative;
+    text-shadow:0px 3px 8px rgb(211, 211, 211);
+}
+
+a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    color: #D23600;
+    margin-top: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#fondocentral input{
+    display: block;
+    height: 37px;
+    width: 258px;
+    border: #FFEED5 solid 1px;
+    background-color: #FFEED5;
+    margin: auto;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight:650;
+    position: absolute∫;
+    font-style: bold;
+    color:  rgba(255,119,41,1);
+    box-shadow: 0px 3px 15px -3px rgba(0,0,0,0.3);
+}

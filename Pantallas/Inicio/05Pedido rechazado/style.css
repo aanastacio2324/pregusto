@@ -1,0 +1,104 @@
+body{
+    
+}
+.fondo{
+    width: 393px;
+    height: 852px;
+    background: linear-gradient(130deg, #FF7729, #FFEED5)
+}
+.basetexto{
+    width: 333px;
+    height: 554px;
+    padding-top: 300px;
+    background-color: white;
+    margin: 0 auto;
+}
+.texto{
+    margin-top: 72px;
+    width: 333px;
+    height: 280px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center ;
+    color:  #D95100 ;
+    
+    
+}
+.partesuperior{
+    width: 393px;
+    height: 300px;
+    background-color: #F57336;
+    border-radius: 0 0 10% 10%;
+    box-shadow:  0px 0px 2px 0px #D95100 ;
+    margin-top: -853px;
+}
+.iconoconfirmacion{
+    width: 393px;
+    height: 280px;
+    background-image: url("../../../iconos/otros/denegar@ios.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 30%;
+
+}
+.texto h1{
+    font-size: 35px;
+
+}
+.texto p{
+    font-size: 18px;
+
+}
+
+.boton{
+    z-index: 10000;
+    width: 150px;
+    height: 40px;
+    background-color: peachpuff;
+    border-radius: 1rem;
+    margin-left: 95px;
+}
+
+
+#confirmar p{
+    text-align: center;
+
+    height: 20px;
+    padding-top: 20px;
+    color: #D95100;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-top: 10px;
+   
+}
+#confirmar:hover p  {
+    background-color: rgb(255, 119, 0);
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 1rem;
+    
+}
+.boton a{
+    text-decoration: none;
+}
+.motivo{
+    width: 290px;
+    height: 17px;
+    margin-top: 50px;
+    margin-left: 21.5px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center ;
+    color:  #D95100 ;
+    font-size: 16px;
+}
+#motivo{
+    float: left;
+    
+}
+#Justificacion{
+    width: 230px;
+    float: right;
+    background-color: #F57336;
+    color: white;
+    
+}
