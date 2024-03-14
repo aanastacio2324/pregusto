@@ -1,0 +1,171 @@
+body{
+    margin: 0 auto;
+}
+.fondo{
+    width: 393px;
+    height: 852px;
+    background: linear-gradient(130deg, #FFEED5, #FF7729);
+}
+.logo{
+    height: 130px;
+    width: 393px;
+    background-image: url("../../../iconos/logo/pregusto2.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 75%;
+   
+}
+.texto{
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    height: 35px;
+    width: 393px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding-top: 10px;
+}
+
+* {
+    font-family: Montserrat, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.registrate {
+    top: 21px;
+    color: rgb(255, 119, 0);
+    border-radius: 3rem 3rem 0 0;
+    margin: 0 auto;
+    width: 358px;
+    height: 656px;
+    background-color: white;
+}
+
+.rellena {
+    text-align: center;
+    top: 40px;
+    width: 268px;
+    height: 80px;
+}
+
+.nombre {
+    top: 45px;
+    width: 268px;
+    height: 70px;
+}
+
+.usuario  {
+    top: 20px;
+    width: 268px;
+    height:70px;
+}
+
+.localiza {
+    width: 268px;
+    height:70px;
+}
+
+.correo {
+    top: -20px;
+    width: 268px;
+    height:70px;
+}
+
+.telf {
+    top: -40px;
+    width: 268px;
+    height:70px;
+}
+
+.contrasena {
+    top: -60px;
+    width: 268px;
+    height:70px;
+}
+
+.conf {
+    top: -80px;
+    width: 268px;
+    height:70px;
+}
+
+.terminos {
+    left: 12%;
+    top: -70px;
+    display: inline-block;
+}
+
+.botonter {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 30%;
+    border: rgb(255, 119, 0) solid 2px;
+}
+ #texter{
+    left: 10%;
+    float: right;
+    text-decoration: underline;
+ }
+
+.botonter:hover {
+    background-color: rgb(255, 119, 0);
+}
+
+.promociones {
+    left: 43px;
+    top: -70px;
+    display: inline-block;
+}
+
+.botonprom {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 30%;
+    border: rgb(255, 119, 0) solid 2px;
+}
+ #textprom{
+    left: 6%;
+    float: right;
+    text-decoration: underline;
+ }
+
+.botonprom:hover {
+    background-color: rgb(255, 119, 0);
+}
+
+.confirmar {
+    text-align: center;
+    top: 80px;
+    width: 268px;                 
+}
+
+.botonconf {
+    top: -100px;
+    width: 150px;
+    height: 40px;
+    background-color: peachpuff;
+    border-radius: 1rem;
+}
+
+.botonconf:hover {
+    background-color: rgb(255, 119, 0);
+}
+
+#crear {
+    text-decoration: underline;
+}
+#conf {
+    top: 10px;
+ }
+ #conf:hover {
+    color: white;
+ } 
+
+a {
+    text-decoration: none;
+    color: #FF7729;
+}

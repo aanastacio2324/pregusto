@@ -1,0 +1,33 @@
+
+.boton{
+    z-index: 10000;
+    width: 150px;
+    height: 40px;
+    background-color: peachpuff;
+    border-radius: 1rem;
+    margin-left: 95px;
+}
+
+
+#confirmar p{
+    text-align: center;
+
+    height: 20px;
+    padding-top: 20px;
+    color: #D95100;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-top: 10px;
+   
+}
+#confirmar:hover p  {
+    background-color: rgb(255, 119, 0);
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 1rem;
+    
+}
+.boton a{
+    text-decoration: none;
+}

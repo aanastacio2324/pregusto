@@ -1,0 +1,126 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+
+}
+.contenedor{
+    background-color: white;
+}
+.fondo{
+    width: 393px;
+    height: 852px;
+    background: linear-gradient(130deg, #FF7729, #FFEED5)
+}
+.contenedorsuperior{
+    height:110px;
+    background-color: #D95100;
+    box-shadow: 0px 0.5px 13px #D95100 ;
+}
+.barrasuperior{
+    height:100px;
+    background-color: white;
+}
+.logo{
+    height: 100px;
+    width: 393px;
+    background-image: url("../../../../iconos/logo/pregusto1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    padding-top: 10px;
+}
+.contenedorinferior{
+    top:793px;
+    height:60px;
+    background-color: white;
+    position: absolute;
+    }
+
+#icono{
+    height: 60px;
+    width: 98.25px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.casa{
+    background-image: url("../../../../iconos/barrainferior/barrainferior_home.png")  ;
+    background-size: 40%;
+}
+.mapa{
+    background-image: url("../../../../iconos/barrainferior/barrainferior_mapa.png")  ;
+    background-size: 40%;
+}
+.busqueda{
+    background-image: url("../../../../iconos/barrainferior/barrainferior_busqueda.png")  ;
+    background-size: 40%;
+}
+.perfil{
+    background-image: url("../../../../iconos/barrainferior/barrainferior_perfil.png")  ;
+    background-size: 30%;
+}
+#icono:hover{
+    background-color: #FD7400;
+}
+.casa:hover{
+    background-image: url("../../../../iconos/barrainferior/homeblanco@android.png")  ;
+    background-size: 40%;
+}
+.mapa:hover{
+    background-image: url("../../../../iconos/barrainferior/mundoblancox@android.png")  ;
+    background-size: 40%;
+}
+.busqueda:hover{
+    background-image: url("../../../../iconos/barrainferior/buscarinferiorblanco.png")  ;
+    background-size: 40%;
+}
+.perfil:hover{
+    background-image: url("../../../../iconos/barrainferior/perfilblanco@android.png")  ;
+    background-size: 30%;
+}
+
+
+.fondoblanco {
+    top: 40px;
+    color: rgb(255, 119, 0);
+    border-radius: 3rem 3rem 0 0;
+    margin: 0 auto;
+    width: 358px;
+    height: 600px;
+    background-color: white;
+    position: relative;
+}
+
+#seccionestitulos{
+    height: 50px;
+    width: auto;
+top: 20px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+#retroceso{
+   top: 5px;
+   left:55px;
+    position: relative;
+    height: 40px;
+    width: 50px;
+    background-color: aqua;
+}
+
+#apartado{
+    top: -56px;
+    left:140px;
+     position: relative;
+     height: 40px;
+     width: 200px;
+     background-color: aqua;
+ }
+
+ #apartado h1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 28px;
+ }

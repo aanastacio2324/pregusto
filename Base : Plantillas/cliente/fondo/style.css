@@ -1,0 +1,8 @@
+*{
+    margin: 0 auto;
+}
+.fondo{
+    width: 393px;
+    height: 852px;
+    background: linear-gradient(130deg, #FFEED5, #FF7729);
+}

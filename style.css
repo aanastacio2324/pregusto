@@ -1,0 +1,24 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+
+}
+.contenedor{
+    margin: 0 auto;
+    background-color: white;
+}
+.fondo{
+   
+    position: absolute;
+    width: 393px;
+    height: 852px;
+    background: linear-gradient(130deg, #FF7729, #FFEED5)
+}
+
+img{
+position: relative;
+    width: 150px;
+    height: 148px;
+    top: 330px;
+    left: 120px;
+}

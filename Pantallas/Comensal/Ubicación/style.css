@@ -1,0 +1,117 @@
+body{
+    margin: 0 auto;
+}
+.fondo{
+    width: 393px;
+    height: 852px;
+    background: linear-gradient(130deg, #FFEED5, #FF7729);
+}
+.contenedorinferior{
+    height:60px;
+    background-color: white;
+    }
+.contenedorinferior{
+    height: 60px;
+    border-top: solid 1px #FD7400;
+    background-color: white;
+}
+#icono{
+    height: 60px;
+    width: 98.25px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.casa{
+    background-image: url("../../../iconos/barrainferior/barrainferior_home.png")  ;
+    background-size: 40%;
+}
+.mapa{
+    background-image: url("../../../iconos/barrainferior/barrainferior_mapa.png")  ;
+    background-size: 40%;
+}
+.busqueda{
+    background-image: url("../../../iconos/barrainferior/barrainferior_busqueda.png")  ;
+    background-size: 40%;
+}
+.perfil{
+    background-image: url("../../../iconos/barrainferior/barrainferior_perfil.png")  ;
+    background-size: 30%;
+}
+#icono:hover{
+    background-color: #FD7400;
+}
+.casa:hover{
+    background-image: url("../../../iconos/barrainferior/homeblanco@android.png")  ;
+    background-size: 40%;
+}
+.mapa:hover{
+    background-image: url("../../../iconos/barrainferior/mundoblancox@android.png")  ;
+    background-size: 40%;
+}
+.busqueda:hover{
+    background-image: url("../../../iconos/barrainferior/buscarinferiorblanco.png")  ;
+    background-size: 40%;
+}
+.perfil:hover{
+    background-image: url("../../../iconos/barrainferior/perfilblanco@android.png")  ;
+    background-size: 30%;
+}
+.logo{
+    height: 130px;
+    width: 393px;
+    background-image: url("../../../iconos/logo/pregusto2.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 75%;
+   
+}
+.texto{
+    font-family: Montserrat;
+    font-weight: bold;
+    height: 35px;
+    width: 393px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding-top: 10px;
+}
+
+* {
+    font-family: Montserrat;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.identificate {
+    top: 21px;
+    color: white;
+    border-radius: 3rem 3rem 0 0;
+    margin: 0 auto;
+    width: 393px;
+    height: 656px;
+    background-image: url(../../../Imágenes/mapa\ sant\ just.png);
+    background-size: cover;
+
+}
+
+.inicia {
+    background-color: #FF7729;
+    text-align: center;
+    top: 40px;
+    left: -30px;
+    width: 225px;
+    height: 45px;
+    border-radius: 1.5rem;
+}
+.find {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 1rem;
+    top: -10px;
+    right: -125px;
+    background-image: url(../../../iconos/busqueda/2.png);
+    background-size: cover;
+}
+

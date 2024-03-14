@@ -1,0 +1,111 @@
+body{
+    margin: 0 auto;
+    background-color: black;
+
+}
+.contenedor{
+    background-color: white;
+}
+.fondo{
+    width: 393px;
+    height: 852px;
+    background: linear-gradient(130deg, #FF7729, #FFEED5)
+}
+.contenedorsuperior{
+    height:110px;
+    background-color: #D95100;
+    box-shadow: 0px 0.5px 13px #D95100 ;
+}
+.barrasuperior{
+    height:100px;
+    background-color: white;
+}
+.logo{
+    height: 100px;
+    width: 393px;
+    background-image: url("../../../iconos/logo/pregusto1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    padding-top: 10px;
+}
+.contenedorinferior{
+    margin-top:682px;
+    height:60px;
+    background-color: white;
+    }
+.contenedorinferior{
+    margin-top: 682px;
+    height: 60px;
+    border-top: solid 1px #FD7400;
+    background-color: white;
+}
+#icono{
+    height: 60px;
+    width: 98.25px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.casa{
+    background-image: url("../../../iconos/barrainferior/barrainferior_home.png")  ;
+    background-size: 40%;
+}
+.mapa{
+    background-image: url("../../../iconos/barrainferior/barrainferior_mapa.png")  ;
+    background-size: 40%;
+}
+.busqueda{
+    background-image: url("../../../iconos/barrainferior/barrainferior_busqueda.png")  ;
+    background-size: 40%;
+}
+.perfil{
+    background-image: url("../../../iconos/barrainferior/barrainferior_perfil.png")  ;
+    background-size: 30%;
+}
+#icono:hover{
+    background-color: #FD7400;
+}
+.casa:hover{
+    background-image: url("../../../iconos/barrainferior/homeblanco@android.png")  ;
+    background-size: 40%;
+}
+.mapa:hover{
+    background-image: url("../../../iconos/barrainferior/mundoblancox@android.png")  ;
+    background-size: 40%;
+}
+.busqueda:hover{
+    background-image: url("../../../iconos/barrainferior/buscarinferiorblanco.png")  ;
+    background-size: 40%;
+}
+.perfil:hover{
+    background-image: url("../../../iconos/barrainferior/perfilblanco@android.png")  ;
+    background-size: 30%;
+}
+
+.contenedor{
+    width: 393px;
+    height: 682px;
+    background-image: url("../../../iconos/mapa.png");
+    float: left;
+}
+#barrabusqueda{
+    width: 350px;
+    height: 30px;
+
+    background-color:#FD7400;
+    margin-left: 20px;
+    
+}
+#barrabusqueda p {
+    text-align: center;
+    font-size: 10;
+    font-family:  "Montserrat", sans-serif;
+    padding-top: 7px;
+    color:#FFEED5;
+}
+a {
+    text-decoration: none;
+    color: #FF7729;
+}
+

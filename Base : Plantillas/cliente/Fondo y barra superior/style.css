@@ -1,0 +1,31 @@
+body{
+    margin: 0 auto;
+    background-color: black;
+
+}
+.contenedor{
+    background-color: white;
+}
+.fondo{
+    width: 393px;
+    height: 852px;
+    background: linear-gradient(130deg, #FFEED5, #FF7729);
+}
+.contenedorsuperior{
+    height:110px;
+    background-color: #D95100;
+    box-shadow: 0px 0.5px 13px #D95100 ;
+}
+.barrasuperior{
+    height:100px;
+    background-color: white;
+}
+.logo{
+    height: 100px;
+    width: 393px;
+    background-image: url("../../../iconos/logo/pregusto1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    padding-top: 10px;
+}

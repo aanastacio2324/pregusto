@@ -1,0 +1,26 @@
+body{
+    margin: 0 auto;
+}
+.fondo{
+    width: 393px;
+    height: 852px;
+    background: linear-gradient(130deg, #FF7729, #FFEED5);
+}
+.logo{
+    height: 130px;
+    width: 393px;
+    background-image: url("../../../iconos/logo/pregusto2.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 75%;
+   
+}
+.texto{
+    font-family: Helvetica, Arial, sans-serif;
+    height: 35px;
+    width: 393px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding-top: 10px;
+}

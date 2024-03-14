@@ -1,0 +1,147 @@
+*{
+    margin: 0 auto;
+    position: relative;
+    font-family: montserrat, sans-serif;
+}
+.contenedor{
+    background-color: white;
+}
+.fondo{
+    width: 393px;
+    height: 852px;
+    background: linear-gradient(130deg, #FF7729, #FFEED5)
+}
+.contenedorsuperior{
+    height:110px;
+}
+.barrasuperior{
+    height:100px;
+}
+.logo{
+    height: 100px;
+    width: 393px;
+    background-image: url("../../../iconos/logo/pregusto2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    padding-top: 10px;
+}
+.contenedorinferior{
+    margin-top:682px;
+    height:60px;
+    background-color: white;
+    }
+.contenedorinferior{
+    margin-top: 210px;
+    height: 60px;
+    border-top: solid 1px #FD7400;
+    background-color: white;
+}
+#icono{
+    height: 60px;
+    width: 98.25px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.casa{
+    background-image: url("../../../iconos/barrainferior/barrainferior_home.png")  ;
+    background-size: 40%;
+}
+.mapa{
+    background-image: url("../../../iconos/barrainferior/barrainferior_mapa.png")  ;
+    background-size: 40%;
+}
+.busqueda{
+    background-image: url("../../../iconos/barrainferior/barrainferior_busqueda.png")  ;
+    background-size: 40%;
+}
+.perfil{
+    background-image: url("../../../iconos/barrainferior/barrainferior_perfil.png")  ;
+    background-size: 30%;
+}
+#icono:hover{
+    background-color: #FD7400;
+}
+.casa:hover{
+    background-image: url("../../../iconos/barrainferior/homeblanco@android.png")  ;
+    background-size: 40%;
+}
+.mapa:hover{
+    background-image: url("../../../iconos/barrainferior/mundoblancox@android.png")  ;
+    background-size: 40%;
+}
+.busqueda:hover{
+    background-image: url("../../../iconos/barrainferior/buscarinferiorblanco.png")  ;
+    background-size: 40%;
+}
+.perfil:hover{
+    background-image: url("../../../iconos/barrainferior/perfilblanco@android.png")  ;
+    background-size: 30%;
+}
+
+.hola {
+    color: white;
+    top: 20px;
+    left: -20px;
+    width: 16rem;
+    height: 4rem;
+}
+#usuario {
+    left: -40px;
+    top: -32px;
+    float: right;
+}
+
+li {
+    list-style: none;
+    margin-top: 2.8rem;
+}
+ul {
+    margin: 2.5rem auto;
+}
+ul a {
+    color: #FD7400;
+    display: block;
+    width: 8.8rem;
+    height: 7rem;
+    background-color: white;
+    border-radius: 1.5rem;
+    float: left;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 7px;
+    text-align: center;
+    }
+
+a:hover {
+    background-color: #FD7400;
+    color: white;
+}
+
+.ajustes {
+    margin-bottom: 47px;
+    left: 130px;
+    top: 13rem;
+    width: 10rem;
+    height: 4rem;
+    display: inline-block;
+    
+}
+
+#textaj {
+    width: 6rem;
+    height: 3rem;
+    color: white;
+    float: right;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+#rueda {
+    background-image: url(../../../iconos/otros/ajuste.png);
+    background-size: cover;
+    width: 2.5rem;
+    height: 2.5rem;
+    float: left;
+}
